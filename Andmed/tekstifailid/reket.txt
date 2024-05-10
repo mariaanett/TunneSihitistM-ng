@@ -1,0 +1,5 @@
+" Ma palun sult üht asja, " ütles itaallane pärast meie teist tennisematshi, " pane mu naise riided selga ja mängi mu naise reketiga.|asja;asi;asjast|tennisematshi;tennisematsh;tennise_matsheil|riided;riie;riideilt
+Mingid päkapikud taovad reketitega palli.|palli;pall;pallilt
+Nina Teimurazovna tuli ja näitas, kuidas reketit õigesti hoida.|reketit;reket;reketile
+Reketisuudlemist on siiski nähtud, niisiis on Killu üks väärt reket.|Reketisuudlemist;reketisuudlemine;reketisuudlemisile
+On Killu talle naine kogu eluks või pihkusattunud tubli reket, mängu alustuseks hea küllalt?|naine;naisele;naisest

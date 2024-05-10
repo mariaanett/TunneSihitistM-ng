@@ -1,0 +1,4 @@
+tool
+vihmavari
+inimene
+paat
