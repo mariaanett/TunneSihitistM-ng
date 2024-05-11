@@ -24,13 +24,13 @@ function LeiaPilt() {
 async function LoeMuudAndmed(pilt) {
     let pildi_fail = pilt.split(".")[0] + ".txt"; // Leiame pildile vastava tekstifaili
 
-    const response = await fetch('../Andmed/pildifailid/pildid/' + pildi_fail); // Loeme tekstifaili, kus on kirjas pildil olevad objektid
+    const response = await fetch('Andmed/pildifailid/pildid/' + pildi_fail); // Loeme tekstifaili, kus on kirjas pildil olevad objektid
     const text = await response.text();
     let objektid = text.split("\n") // saame objektidest listi
 
     // Käime läbi kõik pildi objektid ja otsime vastavad tekstifailid
     for (let i = 0; i < objektid.length - 1; i++) {
-        const res1 = await fetch("../Andmed/tekstifailid/" + objektid[i] + ".txt")
+        const res1 = await fetch("Andmed/tekstifailid/" + objektid[i] + ".txt")
         const text1 = await res1.text();
         let potLaused = text1.split("\n"); // saame objekti tekstifailist potensiaalsed laused listi
         let lause = potLaused[(Math.floor(Math.random() * potLaused.length - 1))]; // valime suvaliselt ühe lause potensiaalsete lausete listist
@@ -52,11 +52,12 @@ async function LoeMuudAndmed(pilt) {
 
 // Funktsioon andmete näitamiseks
 function NaitaUusiAndmeid(){
-    document.getElementById("pilt").src= "../Andmed/pildifailid/pildid/" + pildid[mitmes]; // Kuvame pildi, vastavalt sellele mitmes lause parasjagu on
+    document.getElementById("pilt").src= "Andmed/pildifailid/pildid/" + pildid[mitmes]; // Kuvame pildi, vastavalt sellele mitmes lause parasjagu on
     // Kui on neli lauset ette antud
     if (mitmes === 4) {
+        document.getElementById("mitmes").textContent = " ";
         // Näitame kasutajale vastavat teksti ja vigade loendur kuvab mitu viga mängija tegi
-        document.getElementById("oige").textContent = "Tubli, said kõik lahendatud! Kokku tegid " + vigu + " viga";
+        document.getElementById("lause").textContent = "Tubli, said kõik lahendatud! Kokku tegid " + vigu + " viga";
         // Lisame nupu, et kasutaja saaks uue lause ette
         // Nuppude lisamiseks kasutati https://www.altcademy.com/blog/how-to-create-a-button-in-javascript/ abi
         let nuppudeDiv = document.getElementById("nuppudeDiv");
@@ -70,20 +71,13 @@ function NaitaUusiAndmeid(){
             LeiaPilt();
             NaitaUusiAndmeid();
         });
+        nupp.classList.add("button3")
         nuppudeDiv.appendChild(nupp);
         return
     }
     // Kui kasutajale ei ole veel neli lauset ette antud
-    document.getElementById("oige").textContent = õiged[mitmes]; // Algne lause
-    document.getElementById("auguga").textContent = laused[mitmes]; // Lause, kust on sihitis väja võetud
-
-    // Peidame kasutaja eest algse lause
-    let peidus = document.getElementById("oige");
-    peidus.style = "visibility: hidden;";
-
-    // Kasutaja näeb lauset, kus on sihitis eemaldatud
-    let nähtav = document.getElementById("auguga");
-    nähtav.style = "visibility: visible;";
+    document.getElementById("mitmes").textContent = "Praegune lause on: " + (mitmes+1) + "/4.";
+    document.getElementById("lause").textContent = laused[mitmes]; // Lause, kust on sihitis väja võetud
 
     // Teeme sihitiste variantideks kolm nuppu
     let nuppudeDiv = document.getElementById("nuppudeDiv");
@@ -111,13 +105,7 @@ function NaitaUusiAndmeid(){
 
 // Funktsioon vahetab kuvatavaid lauseid
 function vahetaPeidetud() {
-    // Kui kasutaja valib õige sihitise variandi, siis kuvame talle algse lause
-    let peidus = document.getElementById("oige");
-    peidus.style = "visibility: visible;";
-
-    // Peidame kasutaja eest ilma sihitiseta lause
-    let nähtav = document.getElementById("auguga");
-    nähtav.style = "visibility: hidden;";
+    document.getElementById("lause").textContent = õiged[mitmes-1];
 
     // Teeme nupu, et kasutaja saaks edasi liikuda järgmise lause juurde
     let nuppudeDiv = document.getElementById("nuppudeDiv");
