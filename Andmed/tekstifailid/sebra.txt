@@ -1,5 +1,5 @@
-Tookord soovis tundmatu meeskodanik tappa väikese sebra ärakasutajaid.|ärakasutajaid;ärakasutaja;ärakasutajailt
-Sebrad kõndisid, pringid kintsud lõvisid ahvatlemas, mööda savanni ringi ja näsisid kollakat heina.|lõvisid;lõvi;lõvele|heina;hein;heinast
-Lõvid murravad neid vaid siis, kui kõht tühjaks läheb, muidu passivad aga niisama ja sebrad isegi ei karda neid, teadis Marilyn.|neid;see;neist|neid;see;sel
-Tüdrukud käisid läbi kõik vähegi sobivad kandiaadid, lugesid tarade külge riputatud silte ning kujutasid endale ette, kuidas võiks välja näha Ferda elu sebradega, jõehobustega, pühvlitega, mägikitsedega, lõvidega, madudega, ahvidega – kõik sõbrad ja seltsimehed.|kandiaadid;kandiaad;kandiaadel|silte;silt;siltidest
-Moreen oli vöödiline nagu sebra, aga muidu mao moodi, teda ei söandanud keegi kätte võtta, kui ta trümmis vingerdas.|teda;tema;neile
+Tookord soovis tundmatu meeskodanik tappa väikese sebra ärakasutajaid.|ärakasutajaid;ärakasutajail;ärakasutajaina
+Sebrad kõndisid, pringid kintsud lõvisid ahvatlemas, mööda savanni ringi ja näsisid kollakat heina.|lõvisid;lõveta;lõvena|heina;heintel;heintena
+Lõvid murravad neid vaid siis, kui kõht tühjaks läheb, muidu passivad aga niisama ja sebrad isegi ei karda neid, teadis Marilyn.|neid;neis;neisse|neid;selt;sesse
+Tüdrukud käisid läbi kõik vähegi sobivad kandiaadid, lugesid tarade külge riputatud silte ning kujutasid endale ette, kuidas võiks välja näha Ferda elu sebradega, jõehobustega, pühvlitega, mägikitsedega, lõvidega, madudega, ahvidega – kõik sõbrad ja seltsimehed.|kandiaadid;kandiaadist;kandiaadile|silte;siltidena;siltidelt
+Moreen oli vöödiline nagu sebra, aga muidu mao moodi, teda ei söandanud keegi kätte võtta, kui ta trümmis vingerdas.|teda;neil;nendena

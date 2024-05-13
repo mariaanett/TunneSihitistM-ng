@@ -1,10 +1,10 @@
-Kui ma dušši alt välja tulin ja nägin oma haledalt väikest ausa kodaniku korterit selgel pilgul, ei leidnud ma eest mingeid meike, tušše ega fööne.|dušši;dušš;duššidelt|korterit;korter;korteriteta|meike;meik;meigile
-Tulnukas, kes kuulab " Def Leppardit " ja kannab laserpüstoli asemel fööni pole võib-olla parim inspiratsiooniallikas.|inspiratsiooniallikas;inspiratsiooniallikail;inspiratsiooniallikaist
-Aga kui ta fööni sisse lülitas, siis ei üritanud temagi enam sellest urinast üle seltskondlik olla.|fööni;föön;föönidel
-Juuksed peaaegu kuivad, klõpsatas lüliti, föön vaikis, ja Helga võttis, rulle lahti keeramata, grimmi tegemise ette.|rulle;rull;rullile
-Naise juuksed olid värskelt pestud ja fööniga kohevile puhutud, nägu puuderdatud, silmad toonitatud.|nägu;nägudel;nägudest
-Ta pani uuesti laulu, sellesama laulu üürgama, seekord kõvemini, sest ta kuivatas fööniga juukseid ning muusika pidi puhumisest üle kostma.|laulu;laul;lauludel|laulu;laul;laulust|juukseid;juus;juuksele
-Siis pandi föön kinni.|föön;föönidelt;föönidest
-Selle tulemusena avastasin, et isa loomingulise kollektiivi tõenäoliselt noorimal liikmel olid fööniga kohendatud pehmed tuhkblondid juuksed, pikavõitu seelik, ühtaegu kangekaelne, häbelik ja unistav ilme ning ilusad silmad.|juuksed;juus;juukseist
-Marylinil oli vastu pakkuda koomiline juhtum sellest, kuidas ta ükskord külalistele õhtusöögiks nuudleid oli valmistanud, külalised hakkasid juba saabuma, kuid taigen polnud veel valmis ning Marylin kuivatas seda fööniga.|juhtum;juhtumilt;juhtumita|nuudleid;nuudel;nuudlita|seda;see;sel
-Annie tormas vett päästma, hüüatas midagi oma keeles, suu juukseid ja neidsamu pöögilehti täis.|vett;vesi;vetest|midagi;miski;millestki
+Kui ma dušši alt välja tulin ja nägin oma haledalt väikest ausa kodaniku korterit selgel pilgul, ei leidnud ma eest mingeid meike, tušše ega fööne.|dušši;dušita;dušile|korterit;korterini;korterina|meike;meigilt;meigiks
+Tulnukas, kes kuulab " Def Leppardit " ja kannab laserpüstoli asemel fööni pole võib-olla parim inspiratsiooniallikas.|inspiratsiooniallikas;inspiratsiooniallikasse;inspiratsiooniallikale
+Aga kui ta fööni sisse lülitas, siis ei üritanud temagi enam sellest urinast üle seltskondlik olla.|fööni;föönilt;fööniks
+Juuksed peaaegu kuivad, klõpsatas lüliti, föön vaikis, ja Helga võttis, rulle lahti keeramata, grimmi tegemise ette.|rulle;rullidena;rullidelt
+Naise juuksed olid värskelt pestud ja fööniga kohevile puhutud, nägu puuderdatud, silmad toonitatud.|nägu;nägudena;nägudega
+Ta pani uuesti laulu, sellesama laulu üürgama, seekord kõvemini, sest ta kuivatas fööniga juukseid ning muusika pidi puhumisest üle kostma.|laulu;laulule;laulusse|laulu;laulul;laulule|juukseid;juukseist;juustega
+Siis pandi föön kinni.|föön;föönidel;föönidena
+Selle tulemusena avastasin, et isa loomingulise kollektiivi tõenäoliselt noorimal liikmel olid fööniga kohendatud pehmed tuhkblondid juuksed, pikavõitu seelik, ühtaegu kangekaelne, häbelik ja unistav ilme ning ilusad silmad.|juuksed;juusteta;juukseiks
+Marylinil oli vastu pakkuda koomiline juhtum sellest, kuidas ta ükskord külalistele õhtusöögiks nuudleid oli valmistanud, külalised hakkasid juba saabuma, kuid taigen polnud veel valmis ning Marylin kuivatas seda fööniga.|juhtum;juhtumist;juhtumiga|nuudleid;nuudleina;nuudlitega|seda;neis;neiks
+Annie tormas vett päästma, hüüatas midagi oma keeles, suu juukseid ja neidsamu pöögilehti täis.|vett;vees;veena|midagi;millekski;milleski
