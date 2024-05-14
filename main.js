@@ -33,7 +33,7 @@ async function LoeMuudAndmed(pilt) {
         const res1 = await fetch("Andmed/tekstifailid/" + objektid[i] + ".txt")
         const text1 = await res1.text();
         let potLaused = text1.split("\n"); // saame objekti tekstifailist potensiaalsed laused listi
-        let lause = potLaused[(Math.floor(Math.random() * potLaused.length - 1))]; // valime suvaliselt ühe lause potensiaalsete lausete listist
+        let lause = potLaused[(Math.floor(Math.random() * (potLaused.length - 1)))]; // valime suvaliselt ühe lause potensiaalsete lausete listist
         let osad = lause.split('\|') // Teeme lause osadeks (Lause|sihitis;variant1;variant2)
         let sihVar = osad[1 + (Math.floor(Math.random() * (osad.length - 1)))] // kuna sihitisi võib lauses mitu olla valime suvalise
         let osad1 = sihVar.replace('\r', "").split(";") // saame listi, mis sisaldab sihitist ja selle kaht varianti
@@ -69,7 +69,10 @@ function NaitaUusiAndmeid(){
             mitmes = 0;
             vigu = 0;
             LeiaPilt();
-            NaitaUusiAndmeid();
+            // Taimeri lisamiseks kasutati https://www.w3schools.com/jsref/met_win_settimeout.asp abi
+            setTimeout(() => {
+                NaitaUusiAndmeid();
+            }, 500);
         });
         nupp.classList.add("button3")
         nuppudeDiv.appendChild(nupp);
@@ -86,7 +89,7 @@ function NaitaUusiAndmeid(){
         const nupp = document.createElement("button");
         nupp.textContent = variandid[mitmes][i];
 
-        // Teavituse lisamiseks kasutato https://www.altcademy.com/blog/how-to-create-a-button-in-javascript/ abi
+        // Teavituse lisamiseks kasutati https://www.altcademy.com/blog/how-to-create-a-button-in-javascript/ abi
         // Anname kasutajale teada, kui ta on valinud vale vastuse
         nupp.addEventListener('click', () => {
             if (variandid[mitmes - 1][i] !== sihitised[mitmes - 1]) {
@@ -113,6 +116,7 @@ function vahetaPeidetud() {
     const nupp = document.createElement("button")
     nupp.textContent = "Edasi!"
     nupp.addEventListener('click', () => {
+
         NaitaUusiAndmeid();
     })
     nupp.classList.add("button3")
